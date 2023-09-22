@@ -1,0 +1,275 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #FFFFFF;
+  color: #434455;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+/* ================================================================ */
+/* ========================HEADER================================== */
+
+.header {
+  background-color: 1px solid rgba(231, 233, 252, 1);
+  width: 1440px;
+  /* height: 72px; */
+}
+
+.header-navig {
+}
+
+.header-navig-logo {
+  font-family: 'Raleway' sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: rgba(46, 47, 66, 1);
+}
+.header-navig-logo-web {
+  color: rgba(77, 90, 229, 1);
+}
+
+.header-navig-menu {
+}
+
+.header-navig-menu-item-link {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: rgba(46, 47, 66, 1);
+}
+
+.header-adress {
+}
+.header-adress-menu {
+}
+
+.header-adress-menu-link {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: inherit;
+  font-style: normal;
+}
+
+.header-navig-menu-item-link:active,
+.header-navig-menu-item-link:focus,
+.header-navig-menu-item-link:hover {
+  color: rgba(151, 71, 255, 1);
+  text-decoration: underline;
+}
+
+.header-adress-menu-link:active,
+.header-adress-menu-link:hover,
+.header-adress-menu-link:focus{
+  color: rgba(151, 71, 255, 1);
+}
+
+
+/* ================================================================ */
+/* ========================SOLUTIONS================================== */
+
+.main-solutions {
+  background-color: rgba(46, 47, 66, 1);
+  /* width: 1440px;
+  height: 600px; */
+  text-align: center;
+}
+
+.main-solutions-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  width: 496px;
+  height: 120px;
+}
+
+.main-solutions-btn {
+  font-family:inherit;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(77, 90, 229, 1);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  width: 169px;
+  height: 56px;
+  top: 20px;
+  left: 20px;
+  padding: 16px, 32px, 16px, 32px;
+  border-radius: 4px;
+  gap: 10px;
+  cursor:pointer;
+}
+
+.main-solutions-btn:hover{
+  background-color: rgba(64, 75, 191, 1);
+  width: Hug (169px);
+  height: Hug (56px);
+  top: 88px;
+  left: 20px;
+  padding: 16px, 32px, 16px, 32px;
+  border-radius: 4px;
+  gap: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* ================================================================ */
+/* ========================PRINCIPALS================================== */
+
+.main-principals {
+}
+.main-principals-title {
+}
+.main-principals-list {
+}
+
+
+.main-principals-item {
+  width: 264px;
+  height: 104px;
+  text-align: center;
+}
+
+.main-principals-subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.main-principals-subtitle-text {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+/* ================================================================ */
+/* ========================TEAM================================== */
+
+.team {
+  background-color: rgba(244, 244, 253, 1);
+}
+
+.team-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: rgba(46, 47, 66, 1);
+}
+
+.team-item {
+  background-color: rgba(255, 255, 255, 1);
+  width: 264px;
+  height: 380px;
+  text-align: center;
+}
+
+.team-list {
+}
+.team-img {
+}
+
+.team-member {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  /* text-align: center; */
+  color: rgba(46, 47, 66, 1);
+}
+
+.team-member-profession {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  /* text-align: center; */
+  color: inherit;
+}
+
+/* ================================================================ */
+/* ========================PORTFOLIO================================== */
+
+.portfolio {
+}
+
+.portfolio-btn {
+  cursor:pointer;
+}
+
+.portfolio-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: rgba(46, 47, 66, 1);
+  cursor:pointer;
+}
+
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-image {
+
+}
+
+.portfolio-subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: rgba(46, 47, 66, 1);
+}
+
+.portfolio-text {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: inherit;
+}
+
+/* ================================================================ */
+/* ========================FOOTER================================== */
+
+
+.footer {
+  background-color: rgba(46, 47, 66, 1);
+}
+.footer-logo {
+  font-family: Raleway sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: rgba(244, 244, 253, 1);
+}
+
+.footer-logo-web {
+  color: rgba(77, 90, 229, 1);
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: rgba(244, 244, 253, 1);
+}
