@@ -54,6 +54,7 @@ ul {
 .header-adress {
 }
 .header-adress-menu {
+  font-style: normal
 }
 
 .header-adress-menu-link {
@@ -117,7 +118,8 @@ ul {
   cursor:pointer;
 }
 
-.main-solutions-btn:focus{
+.main-solutions-btn:focus,
+.main-solutions-btn:hover{
   background-color: #404BBF;
   width: Hug (169px);
   height: Hug (56px);
@@ -129,16 +131,14 @@ ul {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
+
 /* ================================================================ */
 /* ========================PRINCIPALS================================== */
 
 .main-principals {
 }
-
 .main-principals-title {
-  color:#2e2f42;
 }
-
 .main-principals-list {
 }
 
@@ -154,6 +154,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
+  color:#2e2f42;
 }
 
 .main-principals-subtitle-text {
@@ -172,7 +173,7 @@ ul {
 .team-title {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.12;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: rgba(46, 47, 66, 1);
@@ -195,6 +196,7 @@ ul {
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.02em;
+  line-height: 1.12;
   /* text-align: center; */
   color: rgba(46, 47, 66, 1);
 }
@@ -212,14 +214,10 @@ ul {
 .portfolio {
 }
 
-.portfolio-btn {
-  cursor:pointer;
-}
-
 .portfolio-title {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.12;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: rgba(46, 47, 66, 1);
@@ -239,6 +237,7 @@ ul {
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.02em;
+  ine-height: 1.12;
   text-align: left;
   color: rgba(46, 47, 66, 1);
 }
