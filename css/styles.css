@@ -26,16 +26,18 @@ ul {
 }
 
 .header-navig-logo {
-  font-family: 'Raleway' sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
-  color: rgba(46, 47, 66, 1);
+  text-transform: uppercase;
+  color: #4d5ae5 ;
 }
-.header-navig-logo-web {
-  color: rgba(77, 90, 229, 1);
+
+.header-logo-span{
+  color:#2e2f42;
 }
 
 .header-navig-menu {
@@ -62,17 +64,15 @@ ul {
   font-style: normal;
 }
 
-.header-navig-menu-item-link:active,
 .header-navig-menu-item-link:focus,
 .header-navig-menu-item-link:hover {
-  color: rgba(151, 71, 255, 1);
+  color: #404bbf;
   text-decoration: underline;
 }
 
-.header-adress-menu-link:active,
 .header-adress-menu-link:hover,
 .header-adress-menu-link:focus{
-  color: rgba(151, 71, 255, 1);
+  color: #404bbf;
 }
 
 
@@ -101,6 +101,7 @@ ul {
   font-family:inherit;
   font-size: 16px;
   font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
   color: rgba(255, 255, 255, 1);
@@ -116,8 +117,8 @@ ul {
   cursor:pointer;
 }
 
-.main-solutions-btn:hover{
-  background-color: rgba(64, 75, 191, 1);
+.main-solutions-btn:focus{
+  background-color: #404BBF;
   width: Hug (169px);
   height: Hug (56px);
   top: 88px;
@@ -133,11 +134,13 @@ ul {
 
 .main-principals {
 }
+
 .main-principals-title {
-}
-.main-principals-list {
+  color:#2e2f42;
 }
 
+.main-principals-list {
+}
 
 .main-principals-item {
   width: 264px;
@@ -169,10 +172,11 @@ ul {
 .team-title {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11;
+  line-height: 1.12;
   letter-spacing: 0.02em;
   text-align: center;
   color: rgba(46, 47, 66, 1);
+  text-transform: capitalize;
 }
 
 .team-item {
@@ -215,11 +219,12 @@ ul {
 .portfolio-title {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11;
+  line-height: 1.12;
   letter-spacing: 0.02em;
   text-align: center;
   color: rgba(46, 47, 66, 1);
   cursor:pointer;
+  text-transform: capitalize;
 }
 
 .portfolio-list {
@@ -253,17 +258,18 @@ ul {
   background-color: rgba(46, 47, 66, 1);
 }
 .footer-logo {
-  font-family: Raleway sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   text-align: left;
-  color: rgba(244, 244, 253, 1);
+  color: #4d5ae5;
 }
 
-.footer-logo-web {
-  color: rgba(77, 90, 229, 1);
+.footer-logo-studio {
+  color: #f4f4fd;
 }
 
 .footer-text {
