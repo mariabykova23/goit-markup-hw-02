@@ -85,6 +85,7 @@ ul {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 1);
+  text-align: center;
 }
 
 .main-solutions-btn {
@@ -146,6 +147,7 @@ ul {
   letter-spacing: 0.02em;
   color: rgba(46, 47, 66, 1);
   text-transform: capitalize;
+  text-align: center;
 }
 
 .team-item {
@@ -186,6 +188,7 @@ ul {
   color: rgba(46, 47, 66, 1);
   cursor:pointer;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .portfolio-list {
